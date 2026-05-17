@@ -1,0 +1,8 @@
+﻿node_modules/
+__pycache__/
+*.pyc
+.env
+.vscode/settings.json
+venv/
+*.log
+.DS_Store

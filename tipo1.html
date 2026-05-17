@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hipersensibilidad Tipo I — Ilustración Fisiológica Premium</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="tipo1-styles.css">
+
+    <!-- Librerías para Flujograma Interactivo -->
+    <script src="https://cdn.jsdelivr.net/npm/leader-line-new@1.1.9/leader-line.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/plain-draggable@2.5.12/plain-draggable.min.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+
+        <!-- Panel Interactivo Lateral (IZQUIERDA) -->
+        <aside class="info-panel" id="infoPanel">
+            <button class="info-close" id="infoPanelClose">&times;</button>
+            <div class="info-content" id="infoPanelContent">
+                <div class="info-header">
+                    <div class="info-icon">🔬</div>
+                    <h2 class="info-title">Selecciona una Estructura</h2>
+                </div>
+
+                <div class="info-scroll-area">
+                    <!-- Nivel Superficial -->
+                    <div class="info-section">
+                        <h3 class="section-subtitle">VISIÓN GENERAL</h3>
+                        <p class="info-body">Haz clic en cualquier célula o molécula del esquema anatómico para
+                            desglosar la cascada fisiopatológica.</p>
+                    </div>
+
+                    <!-- Cascada Profunda -->
+                    <div class="info-section deep-cascade-section" style="display: none;">
+                        <h3 class="section-subtitle">CASCADA MOLECULAR</h3>
+                        <div class="info-cascade-content">
+                            <!-- Inyectado vía JS -->
+                        </div>
+                    </div>
+
+                    <!-- Contexto Fisiológico -->
+                    <div class="info-meta"></div>
+
+                    <!-- Bibliografía -->
+                    <div class="info-biblio" style="display: none;">
+                        <h4>REFERENCIAS BIBLIOGRÁFICAS</h4>
+                        <p class="biblio-text"></p>
+                    </div>
+
+                    <!-- Acción Cinematográfica -->
+                    <div class="info-action-area" id="animationActionArea"
+                        style="display: none; margin-top: 30px; text-align: center;">
+                        <button class="play-anim-btn" id="btn-play-anim">
+                            <span class="play-icon">▶</span> <span id="play-anim-text">Ver Transición Activa</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Diagram Area (Canvas libre) -->
+        <main class="diagram-wrapper" id="diagramWrapper">
+
+            <!-- Header Flotante -->
+            <header class="main-header">
+                <div class="header-glow"></div>
+                <div class="header-content">
+                    <div class="header-top-line">
+                        <span class="header-badge">INMUNOLOGÍA MOLECULAR Y CELULAR</span>
+                    </div>
+                    <h1>Fisiopatología: Hipersensibilidad <span>Tipo I</span></h1>
+                    <p class="subtitle">Ilustración Interactiva Nivel Libro de Texto</p>
+                </div>
+            </header>
+
+            <div id="diagramCanvas" class="canvas-area">
+
+                <!-- Actor de Animación Físico (Alérgeno) -->
+                <div id="actor-allergen" class="anim-actor" style="display: none;">🦠</div>
+
+                <!-- COLUMNA 1: ENTRADA (Left) -->
+                <div class="organic-node interactable danger-aura" id="node-alergeno" data-info="sens_0"
+                    style="left: 100px; top: 200px;">
+                    <div class="organic-img"
+                        style="font-size: 3rem; filter: drop-shadow(0 0 10px rgba(231, 76, 60, 0.8));">🦠</div>
+                    <div class="anatomical-labels">
+                        <div class="anat-label title-label delay-1">Alérgeno (Ej. Der p 1)</div>
+                        <div class="anat-label marker-label delay-2"><span class="line-ptr"></span>Actividad Proteasa
+                        </div>
+                    </div>
+                </div>
+
+                <div class="organic-node route-node" id="node-resp" style="left: 100px; top: 400px;">
+                    <div class="box-icon">🫁</div>
+                    <div class="anat-label title-label">Tejido Barrera (Mucosa/Piel)</div>
+                </div>
+
+                <!-- COLUMNA 2: EPITELIO Y ALARMINAS -->
+                <div class="organic-node interactable epitelio-node" id="node-epitelio" data-info="sens_1"
+                    style="left: 450px; top: 350px;">
+                    <div class="epi-visual">
+                        <div class="epi-cell"></div>
+                        <div class="epi-cell broken"></div>
+                        <div class="epi-cell"></div>
+                    </div>
+                    <div class="anatomical-labels bottom-labels">
+                        <div class="anat-label title-label delay-1">Epitelio Escamoso/Cilíndrico</div>
+                        <div class="anat-label marker-label delay-2"><span class="line-ptr"></span>Ruptura Uniones
+                            Estrechas</div>
+                        <div class="anat-label marker-label delay-3"><span class="line-ptr"></span>Activación PAR-2
+                        </div>
+                    </div>
+                </div>
+
+                <div class="molecule-node red" id="node-tslp" style="left: 450px; top: 550px;">
+                    <div class="mol-dot"></div> TSLP
+                </div>
+                <div class="molecule-node orange" id="node-il33" style="left: 550px; top: 550px;">
+                    <div class="mol-dot"></div> IL-33
+                </div>
+                <div class="molecule-node yellow" id="node-il25" style="left: 650px; top: 550px;">
+                    <div class="mol-dot"></div> IL-25
+                </div>
+
+                <!-- COLUMNA 3: RESPUESTA INNATA EN TEJIDO -->
+                <div class="organic-node interactable" id="node-dc-tejido" data-info="sens_2"
+                    style="left: 750px; top: 300px;">
+                    <div class="organic-img dc-img"><img src="assets/custom_dc_nobg.png" alt="APC"></div>
+                    <div class="anatomical-labels side-labels left">
+                        <div class="anat-label title-label delay-1">DC Inmadura (Tejido)</div>
+                        <div class="anat-label marker-label delay-2"><span class="line-ptr"></span>Captura de Antígeno
+                        </div>
+                        <div class="anat-label marker-label delay-3"><span class="line-ptr"></span>Recepción de
+                            Alarminas</div>
+                    </div>
+                </div>
+
+                <div class="organic-node interactable" id="node-ilc2" data-info="sens_6"
+                    style="left: 750px; top: 700px;">
+                    <div class="organic-img ilc2-img"><img src="assets/t_cell.svg" alt="ILC2"
+                            style="filter: hue-rotate(80deg) saturate(1.5);"></div>
+                    <div class="anatomical-labels side-labels right">
+                        <div class="anat-label title-label delay-1">Célula Linfoide Innata 2</div>
+                        <div class="anat-label marker-label delay-2"><span class="line-ptr"></span>Activada por
+                            IL-33/TSLP</div>
+                        <div class="anat-label marker-label delay-3"><span class="line-ptr"></span>Secreción temprana
+                            IL-4</div>
+                    </div>
+                </div>
+
+                <!-- COLUMNA 4 & 5: GANGLIO LINFÁTICO -->
+                <div class="anat-bg ganglio-bg" style="left: 1200px; top: 50px; width: 1000px; height: 1300px;">
+                    <div class="bg-label" style="top: -40px; color: #fff;">Ganglio Linfático Drenante</div>
+                    <div class="anat-texture"></div>
+                </div>
+
+                <!-- DC Madura tras migración -->
+                <div class="organic-node interactable" id="node-dc-ganglio" data-info="sens_4_detail"
+                    style="left: 1300px; top: 300px;">
+                    <div class="organic-img dc-img"><img src="assets/custom_dc_nobg.png" alt="APC Madura"
+                            style="filter: drop-shadow(0 0 15px rgba(241, 196, 15, 0.5)); transform: scale(1.1);"></div>
+                    <div class="anatomical-labels side-labels left">
+                        <div class="anat-label title-label delay-1">DC Madura (Presentadora)</div>
+                        <div class="anat-label marker-label delay-2"><span class="line-ptr"></span>Alta expresión MHC-II
+                        </div>
+                        <div class="anat-label marker-label delay-3"><span class="line-ptr"></span>Co-estimulación
+                            OX40L+</div>
+                    </div>
+                </div>
+
+                <!-- T Naive (formando la sinapsis con DC) -->
+                <div class="organic-node interactable" id="node-t-naive" data-info="sens_4"
+                    style="left: 1650px; top: 300px;">
+                    <div class="organic-img naive-img"><img src="assets/t_cell.svg" alt="T Naive"
+                            style="filter: grayscale(0.7) brightness(1.2);"></div>
+                    <div class="anatomical-labels side-labels right">
+                        <div class="anat-label title-label delay-1">Linfocito T CD4+ Naïve</div>
+                        <div class="anat-label marker-label delay-2"><span class="line-ptr"></span>Reconocimiento TCR
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Etiquetas de la Sinapsis (Físicamente entre DC y T Naive) -->
+                <div class="anatomical-labels" id="synapse-labels"
+                    style="left: 1475px; top: 350px; pointer-events: none; z-index: 100;">
+                    <div class="anat-label marker-label delay-1" style="color: #E0B0FF; border-color: #E0B0FF;">⚡
+                        Sinapsis Inmunológica</div>
+                    <div class="anat-label marker-label delay-2">Señal 1: pMHC-II ↔ TCR</div>
+                    <div class="anat-label marker-label delay-3">Señal 2: OX40L ↔ OX40</div>
+                    <div class="anat-label marker-label delay-4">Señal 3: IL-4 (de tejido/Tfh)</div>
+                </div>
+
+                <!-- Diferenciación y Cooperación -->
+                <div class="organic-node interactable" id="node-th2" data-info="sens_7"
+                    style="left: 1650px; top: 600px;">
+                    <div class="organic-img th2-img"><img src="assets/t_cell.svg" alt="Th2"
+                            style="filter: drop-shadow(0 0 10px rgba(52, 152, 219, 0.6));"></div>
+                    <div class="anatomical-labels side-labels left">
+                        <div class="anat-label title-label delay-1" style="color: #3498DB;">Linfocito Th2 Activado</div>
+                        <div class="anat-label marker-label delay-2"><span class="line-ptr"></span>Polarizado por GATA-3
+                        </div>
+                        <div class="anat-label marker-label delay-3"><span class="line-ptr"></span>Expresa CD40L e
+                            IL-4/13</div>
+                    </div>
+                </div>
+
+                <div class="organic-node interactable" id="node-bcell" data-info="sens_8"
+                    style="left: 1650px; top: 900px;">
+                    <div class="organic-img bcell-img"><img src="assets/b_cell.svg" alt="B Cell"
+                            style="filter: drop-shadow(0 0 10px rgba(155, 89, 182, 0.6));"></div>
+                    <div class="anatomical-labels side-labels right">
+                        <div class="anat-label title-label delay-1" style="color: #9B59B6;">Linfocito B (Folicular)
+                        </div>
+                        <div class="anat-label marker-label delay-2"><span class="line-ptr"></span>Interacción
+                            CD40-CD40L</div>
+                        <div class="anat-label marker-label delay-3"><span class="line-ptr"></span>Activación enzima AID
+                        </div>
+                    </div>
+                </div>
+
+                <div class="organic-node interactable" id="node-plasma" data-info="sens_9"
+                    style="left: 1650px; top: 1200px;">
+                    <div class="organic-img plasma-img"><img src="assets/plasma_cell.png" alt="Plasma"
+                            style="transform: scale(1.6); filter: drop-shadow(0 0 15px rgba(241, 196, 15, 0.4));"></div>
+                    <div class="anatomical-labels side-labels left">
+                        <div class="anat-label title-label delay-1" style="color: #F1C40F;">Célula Plasmática</div>
+                        <div class="anat-label marker-label delay-2"><span class="line-ptr"></span>Switch Isotipo
+                            completado</div>
+                        <div class="anat-label marker-label delay-3"><span class="line-ptr"></span>Producción sistémica
+                            IgE</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+
+        <!-- Barra de Navegación del Tour Guiado -->
+        <div class="tour-nav cinematic-nav">
+            <button class="tour-btn" id="btn-prev">⬅ Anterior</button>
+            <div class="tour-status">
+                <span id="tour-step-title">Atlas Libre</span>
+                <small id="tour-step-counter">Selecciona una estructura biológica</small>
+            </div>
+            <button class="tour-btn primary-btn" id="btn-next">Iniciar Cascada ➡</button>
+        </div>
+
+    </div>
+
+    <script src="tipo1-app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,451 @@
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                         HIPERSENSIBILIDAD TIPO I – INMEDIATA (ALÉRGICA)                                                                 │
+│                                    Mecanismo completo (sensibilización, fase efectora, fase tardía)                                                      │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+                                                   ╔═══════════════════════════════════════════════╗
+                                                   ║        1. FASE DE SENSIBILIZACIÓN            ║
+                                                   ║        (Primer contacto, asintomática)       ║
+                                                   ╚═══════════════════════════════════════════════╝
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+                                              ┌─────────────────────────┐
+                                              │     ALÉRGENO entra      │
+                                              │  por vía respiratoria,  │
+                                              │  digestiva o cutánea    │
+                                              └───────────┬─────────────┘
+                                                          │
+                                                          ▼
+                                              ┌─────────────────────────┐
+                                              │   Células dendríticas   │
+                                              │   (APC) capturan el     │
+                                              │   alérgeno (endocitosis)│
+                                              └───────────┬─────────────┘
+                                                          │
+                                                          ▼
+                                              ┌─────────────────────────┐
+                                              │   Migran a ganglios     │
+                                              │   linfáticos regionales │
+                                              └───────────┬─────────────┘
+                                                          │
+                          ┌───────────────────────────────┼───────────────────────────────┐
+                          │                               │                               │
+                          ▼                               ▼                               ▼
+              ┌───────────────────────┐     ┌───────────────────────┐     ┌───────────────────────┐
+              │   El alérgeno es       │     │   Células epiteliales │     │   Epitelio dañado     │
+              │   procesado y          │     │   liberan ALARMINAS   │     │   libera proteasas    │
+              │   presentado en        │     │   (IL-25, IL-33, TSLP)│     │   (activan PAR-2)     │
+              │   MHC clase II         │     │   por daño o estrés    │     │                       │
+              └───────────┬───────────┘     └───────────┬───────────┘     └───────────┬───────────┘
+                          │                             │                             │
+                          ▼                             ▼                             │
+              ┌───────────────────────┐     ┌───────────────────────┐                 │
+              │   Linfocito T CD4+    │     │   Activación directa  │                 │
+              │   naïve reconoce      │     │   de ILC2             │◄────────────────┘
+              │   MHC-II + péptido    │     │   (célula linfoide    │
+              └───────────┬───────────┘     │   innata grupo 2)     │
+                          │                 └───────────┬───────────┘
+                          ▼                             │
+              ┌───────────────────────┐                 │
+              │   Diferenciación a    │                 │
+              │   Th2 (en lugar de    │                 │
+              │   Th1) favorecida     │                 │
+              │   por:                │                 │
+              │   • Ausencia de IL-12 │                 │
+              │   • Alarminas         │                 │
+              │   • GATA-3, STAT6     │                 │
+              └───────────┬───────────┘                 │
+                          │                             │
+                          ▼                             ▼
+              ┌───────────────────────┐     ┌───────────────────────┐
+              │   Linfocito Th2       │     │   ILC2 activada       │
+              │   secreta:            │     │   secreta:            │
+              │   IL-4, IL-5, IL-13,  │     │   IL-5 e IL-13        │
+              │   IL-9, IL-10, IL-25  │     │   (respuesta innata   │
+              └───────────┬───────────┘     │   rápida)             │
+                          │                 └───────────┬───────────┘
+                          │                             │
+                          └───────────────┬─────────────┘
+                                          │
+                                          ▼
+                              ┌───────────────────────┐
+                              │   Linfocito B          │
+                              │   específico para     │
+                              │   el alérgeno         │
+                              └───────────┬───────────┘
+                                          │
+                                          ▼
+                              ┌───────────────────────┐
+                              │   Interacción          │
+                              │   CD40L (Th2) – CD40 (B)│
+                              │   + IL-4 e IL-13       │
+                              └───────────┬───────────┘
+                                          │
+                                          ▼
+                              ┌───────────────────────┐
+                              │   Cambio de isotipo    │
+                              │   (reordenamiento      │
+                              │   de cadena pesada)    │
+                              │   de IgM a IgE         │
+                              └───────────┬───────────┘
+                                          │
+                                          ▼
+                              ┌───────────────────────┐
+                              │   Célula plasmática    │
+                              │   secreta IgE          │
+                              │   específica para      │
+                              │   el alérgeno          │
+                              └───────────┬───────────┘
+                                          │
+                                          ▼
+                              ┌───────────────────────┐
+                              │   IgE se une a         │
+                              │   receptor FcεRI       │
+                              │   en MASTOCITOS y      │
+                              │   BASÓFILOS            │
+                              │   (sensibilización)    │
+                              └───────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+                                                   ╔═══════════════════════════════════════════════╗
+                                                   ║        2. FASE EFECTORA (REEXPOSICIÓN)       ║
+                                                   ╚═══════════════════════════════════════════════╝
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+                                              ┌─────────────────────────┐
+                                              │   MISMO ALÉRGENO        │
+                                              │   entra nuevamente      │
+                                              │   (2º contacto)         │
+                                              └───────────┬─────────────┘
+                                                          │
+                                                          ▼
+                                          ┌─────────────────────────────────┐
+                                          │   El alérgeno se une a           │
+                                          │   dos moléculas de IgE           │
+                                          │   adyacentes en la superficie    │
+                                          │   del mastocito o basófilo       │
+                                          │   (ENTRECRUZAMIENTO)             │
+                                          └───────────────┬─────────────────┘
+                                                          │
+                                                          ▼
+                                          ┌─────────────────────────────────┐
+                                          │   Agregación de los              │
+                                          │   receptores FcεRI               │
+                                          │   (formación de lipid rafts)     │
+                                          └───────────────┬─────────────────┘
+                                                          │
+                                                          ▼
+                              ┌───────────────────────────────────────────────────────────┐
+                              │              SEÑALIZACIÓN INTRACELULAR                   │
+                              └───────────────────────────────────────────────────────────┘
+                                                          │
+                ┌─────────────────┬───────────────────────┼───────────────────────┬─────────────────┐
+                │                 │                       │                       │                 │
+                ▼                 ▼                       ▼                       ▼                 ▼
+        ┌───────────────┐ ┌───────────────┐     ┌───────────────┐     ┌───────────────┐ ┌───────────────┐
+        │ Activación de │ │ Fosforilación │     │ Reclutamiento │     │ Activación de │ │ Vía MAPK      │
+        │ Lyn y Fyn     │ │ de ITAM en    │     │ y activación  │     │ PLCγ          │ │ (Ras-Raf-MEK- │
+        │ (tirosina     │ │ cadenas β y γ │     │ de Syk        │     │               │ │ ERK, JNK, p38)│
+        │ quinasas Src) │ │               │     │               │     │               │ │               │
+        └───────┬───────┘ └───────┬───────┘     └───────┬───────┘     └───────┬───────┘ └───────┬───────┘
+                │                 │                       │                       │                 │
+                └─────────────────┴───────────────────────┼───────────────────────┴─────────────────┘
+                                                          │
+                                                          ▼
+                                          ┌─────────────────────────────────┐
+                                          │   PLCγ hidroliza PIP₂           │
+                                          │   → IP₃ + DAG                    │
+                                          └───────────────┬─────────────────┘
+                                                          │
+                                    ┌─────────────────────┼─────────────────────┐
+                                    │                                           │
+                                    ▼                                           ▼
+                    ┌─────────────────────────────┐           ┌─────────────────────────────┐
+                    │   IP₃ libera Ca²⁺ del        │           │   DAG activa PKC            │
+                    │   retículo endoplásmico      │           │   (proteína quinasa C)      │
+                    │   (vía IP₃R)                 │           │                             │
+                    └───────────────┬─────────────┘           └───────────────┬─────────────┘
+                                    │                                           │
+                                    ▼                                           │
+                    ┌─────────────────────────────┐                           │
+                    │   Entrada de Ca²⁺            │                           │
+                    │   extracelular               │                           │
+                    │   (canales CRAC, Orai1,      │                           │
+                    │   STIM1)                     │                           │
+                    └───────────────┬─────────────┘                           │
+                                    │                                           │
+                                    └─────────────────────┬───────────────────┘
+                                                          │
+                                                          ▼
+                                          ┌─────────────────────────────────┐
+                                          │   Aumento de Ca²⁺ citosólico    │
+                                          │   + activación de PKC           │
+                                          │   → fosforilación de sustratos  │
+                                          │   → fusión de gránulos          │
+                                          │   (complejos SNARE)             │
+                                          └───────────────┬─────────────────┘
+                                                          │
+                                                          ▼
+                                          ┌─────────────────────────────────┐
+                                          │          DESGRANULACIÓN         │
+                                          │   (exocitosis de gránulos)       │
+                                          │   en segundos-minutos            │
+                                          └───────────────┬─────────────────┘
+                                                          │
+                          ┌───────────────────────────────┼───────────────────────────────┐
+                          │                               │                               │
+                          ▼                               ▼                               ▼
+        ┌─────────────────────────────────┐ ┌─────────────────────────────────┐ ┌─────────────────────────────────┐
+        │   LIBERACIÓN DE MEDIADORES      │ │   SÍNTESIS DE MEDIADORES         │ │   ACTIVACIÓN DE FACTORES         │
+        │   PREFORMADOS (gránulos)        │ │   LIPÍDICOS (de novo, minutos)   │ │   DE TRANSCRIPCIÓN (horas)       │
+        └─────────────────────────────────┘ └─────────────────────────────────┘ └─────────────────────────────────┘
+                          │                               │                               │
+                          ▼                               ▼                               ▼
+        ┌─────────────────────────────────┐ ┌─────────────────────────────────┐ ┌─────────────────────────────────┐
+        │ • Histamina                     │ │ • Leucotrienos (LTC₄, LTD₄,     │ │ • NF-κB (se libera de IκB)      │
+        │ • Proteasas (triptasa, quimasa) │ │   LTE₄ = SRS-A; LTB₄)            │ │ • NFAT (desfosforilado por      │
+        │ • Heparina (MCTC) /             │ │ • Prostaglandina D₂ (PGD₂)       │ │   calcineurina)                  │
+        │   condroitín sulfato (MCT)      │ │ • Tromboxano A₂                  │ │ • AP-1 (c-Fos/c-Jun)             │
+        │ • ECF-A (factor quimiotáctico   │ │ • PAF (factor activador de       │ │ → Transcripción de genes de      │
+        │   de eosinófilos)               │ │   plaquetas)                     │ │   citocinas (TNF, IL-4, IL-5,    │
+        │ • NCF-A (factor quimiotáctico   │ │                                   │ │   IL-13, eotaxina, etc.)         │
+        │   de neutrófilos)               │ │                                   │ │                                   │
+        └─────────────────────────────────┘ └─────────────────────────────────┘ └─────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+                                            ╔═══════════════════════════════════════════════╗
+                                            ║           3. RESPUESTA INMEDIATA              ║
+                                            ║           (minutos)                           ║
+                                            ╚═══════════════════════════════════════════════╝
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+                          ┌─────────────────────────────────────────────────────────────────────────────────────┐
+                          │                                    EFECTOS INMEDIATOS                                  │
+                          └─────────────────────────────────────────────────────────────────────────────────────┘
+
+        ┌───────────────────────────────────┐   ┌───────────────────────────────────┐   ┌───────────────────────────────────┐
+        │   HISTAMINA (vía H1)              │   │   LEUCOTRIENOS (LTC₄, LTD₄, LTE₄) │   │   PGD₂ y PAF                       │
+        │   • Vasodilatación                │   │   • Broncoconstricción prolongada  │   │   • Broncoconstricción             │
+        │   • Aumento permeabilidad         │   │     (100-1000× más potente que    │   │   • Aumento permeabilidad          │
+        │     vascular (edema)              │   │     histamina)                     │   │   • Agregación plaquetaria (PAF)   │
+        │   • Broncoconstricción            │   │   • Aumento permeabilidad vascular │   │   • Quimiotaxis (PGD₂)             │
+        │   • Prurito                       │   │   • Hipersecreción de moco         │   │                                   │
+        │   • Aumento secreción de moco     │   │                                   │   │                                   │
+        └───────────────────────────────────┘   └───────────────────────────────────┘   └───────────────────────────────────┘
+
+        ┌───────────────────────────────────┐   ┌───────────────────────────────────┐   ┌───────────────────────────────────┐
+        │   PROTEASAS (triptasa, quimasa)   │   │   ECF-A / NCF-A                    │   │   CÉLULAS EFECTORAS INMEDIATAS     │
+        │   • Daño de matriz extracelular   │   │   • Quimiotaxis de eosinófilos     │   │   • Mastocitos (ya residentes)     │
+        │   • Activación del complemento    │   │     y neutrófilos hacia el tejido  │   │   • Basófilos (circulantes)        │
+        │   • Generación de cininas         │   │                                   │   │                                     │
+        │   • Activación de PAR-2           │   │                                   │   │                                     │
+        └───────────────────────────────────┘   └───────────────────────────────────┘   └───────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+                                            ╔═══════════════════════════════════════════════╗
+                                            ║          4. RESPUESTA DE FASE TARDÍA          ║
+                                            ║           (2-8 horas, persiste días)          ║
+                                            ╚═══════════════════════════════════════════════╝
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+                          ┌─────────────────────────────────────────────────────────────────────────────────────┐
+                          │   CITOCINAS Y QUIMIOCINAS sintetizadas de novo por mastocitos, Th2 e ILC2           │
+                          └─────────────────────────────────────────────────────────────────────────────────────┘
+
+        ┌───────────────────────────────────┐   ┌───────────────────────────────────┐   ┌───────────────────────────────────┐
+        │   TNF-α                           │   │   IL-4 e IL-13                     │   │   IL-5                             │
+        │   • Activa endotelio venular      │   │   • Aumentan VCAM-1               │   │   • Activa eosinófilos             │
+        │   • Aumenta ICAM-1, VCAM-1,       │   │   • Inducen cambio a IgE          │   │   • Estimula eosinofiliopoyesis    │
+        │     E-selectina                   │   │   • Aumentan moco (IL-13)          │   │   • Prolonga supervivencia          │
+        │   • Recluta neutrófilos y         │   │   • Mantienen respuesta Th2        │   │     eosinófilos                     │
+        │     eosinófilos                   │   │                                   │   │                                     │
+        └───────────────────────────────────┘   └───────────────────────────────────┘   └───────────────────────────────────┘
+
+        ┌───────────────────────────────────┐   ┌───────────────────────────────────┐   ┌───────────────────────────────────┐
+        │   Eotaxina (CCL11, CCL24, CCL26) │   │   RANTES (CCL5), MCP-1 (CCL2)     │   │   Otras citocinas                  │
+        │   • Potente quimioatrayente       │   │   • Quimiotaxis de eosinófilos,   │   │   • IL-9: proliferación de         │
+        │     de eosinófilos (vía CCR3)     │   │     Th2, monocitos                │   │     mastocitos                      │
+        │                                   │   │                                   │   │   • GM-CSF: maduración de          │
+        │                                   │   │                                   │   │     granulocitos/macrófagos        │
+        └───────────────────────────────────┘   └───────────────────────────────────┘   └───────────────────────────────────┘
+
+                          │
+                          ▼
+        ┌─────────────────────────────────────────────────────────────────────────────────────────────────────┐
+        │   RECLUTAMIENTO CELULAR AL TEJIDO (por quimiocinas y moléculas de adhesión inducidas por citocinas) │
+        └─────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+        ┌───────────────────────────────────┐   ┌───────────────────────────────────┐   ┌───────────────────────────────────┐
+        │   EOSINÓFILOS (predominan)        │   │   NEUTRÓFILOS (temprano)          │   │   LINFOCITOS Th2 e ILC2            │
+        │   • Liberan MBP, ECP, EDN, EPO    │   │   • Liberan enzimas proteolíticas │   │   • Amplifican la respuesta        │
+        │   • Tóxicos para el epitelio      │   │   • Daño tisular adicional        │   │     Th2                           │
+        │   • Daño de la vía aérea          │   │                                   │   │                                     │
+        │   • Formación de cristales de     │   │                                   │   │                                     │
+        │     Charcot-Leyden (galectina-10) │   │                                   │   │                                     │
+        └───────────────────────────────────┘   └───────────────────────────────────┘   └───────────────────────────────────┘
+
+        ┌───────────────────────────────────┐   ┌───────────────────────────────────┐
+        │   MACRÓFAGOS                      │   │   BASÓFILOS (reclutados desde     │
+        │   • Activados por IFN-γ           │   │   sangre)                         │
+        │   • Liberan más citocinas         │   │   • Contribuyen a inflamación     │
+        │     inflamatorias                 │   │     crónica                       │
+        └───────────────────────────────────┘   └───────────────────────────────────┘
+
+                          │
+                          ▼
+        ┌─────────────────────────────────────────────────────────────────────────────────────────────────────┐
+        │   MANIFESTACIONES CLÍNICAS DE LA FASE TARDÍA                                                         │
+        │   • Inflamación tisular crónica (edema, infiltrado celular)                                          │
+        │   • Daño epitelial (descamación en asma, erosión en dermatitis)                                      │
+        │   • Hiperreactividad bronquial (asma) – respuesta exagerada a estímulos inespecíficos                │
+        │   • Hipersecreción de moco                                                                           │
+        │   • Remodelación de la vía aérea en asma crónico (fibrosis subepitelial, hipertrofia muscular,      │
+        │     hiperplasia de células caliciformes)                                                             │
+        │   • Liquenificación y engrosamiento de la piel en dermatitis atópica crónica                         │
+        └─────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+                                      ╔═══════════════════════════════════════════════════════════════════════════════════════╗
+                                      ║                    5. ACTIVACIÓN DE MASTOCITOS INDEPENDIENTE DE IgE                 ║
+                                      ║                        (Reacciones anafilactoides)                                 ║
+                                      ╚═══════════════════════════════════════════════════════════════════════════════════════╝
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+        ┌───────────────────────────────────┐   ┌───────────────────────────────────┐   ┌───────────────────────────────────┐
+        │   Receptor MRGPRX2                │   │   Anafilotoxinas C3a y C5a         │   │   Estímulos físicos                │
+        │   (en mastocitos cutáneos)        │   │   (del complemento)               │   │   • Frío                          │
+        │   Ligandos:                       │   │   • Se unen a C3aR y C5aR         │   │   • Calor                         │
+        │   • Péptidos catiónicos           │   │   • Inducen desgranulación        │   │   • Ejercicio                     │
+        │   • Vancomicina, atracurio        │   │     directa                       │   │   • Radiación UV                  │
+        │   • Ciprofloxacino                │   │                                   │   │                                   │
+        │   • Opiáceos (morfina, codeína)   │   │                                   │   │                                   │
+        │   • Medios de contraste           │   │                                   │   │                                   │
+        │   • Neuropéptidos                 │   │                                   │   │                                   │
+        └───────────────────────────────────┘   └───────────────────────────────────┘   └───────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+                                      ╔═══════════════════════════════════════════════════════════════════════════════════════╗
+                                      ║                    6. REGULACIÓN NEGATIVA DE LA RESPUESTA TIPO I                     ║
+                                      ╚═══════════════════════════════════════════════════════════════════════════════════════╝
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+        ┌───────────────────────────────────┐   ┌───────────────────────────────────┐   ┌───────────────────────────────────┐
+        │   Receptores inhibidores con      │   │   Células T reguladoras (Treg)    │   │   Anticuerpos IgG4 bloqueantes    │
+        │   ITIM                            │   │   CD4⁺ FoxP3⁺ CD25⁺               │   │   • Inducidos por inmunoterapia   │
+        │   • FcγRIIB (CD32B)               │   │   • Secretan IL-10 y TGF-β        │   │   • Compiten con IgE por el       │
+        │     → recluta SHIP → bloquea      │   │   • Inhiben Th2 y mastocitos      │   │     alérgeno                      │
+        │       PI3K                        │   │   • Inducen anergia               │   │   • Se unen a FcγRIIB             │
+        │   • Siglec-8 (en eosinófilos y    │   │                                   │   │     (señal inhibitoria)           │
+        │     mastocitos) → apoptosis       │   │                                   │   │                                   │
+        │   • CD200R, LAIR-1                │   │                                   │   │                                   │
+        └───────────────────────────────────┘   └───────────────────────────────────┘   └───────────────────────────────────┘
+
+        ┌───────────────────────────────────┐   ┌───────────────────────────────────┐
+        │   Desensibilización del receptor  │   │   Citocinas antiinflamatorias     │
+        │   • Internalización y degradación │   │   • IL-10 (producida por Treg,    │
+        │     de FcεRI tras activación      │   │     Th2, mastocitos)              │
+        │     repetida                      │   │   • TGF-β                         │
+        └───────────────────────────────────┘   └───────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+                                      ╔═══════════════════════════════════════════════════════════════════════════════════════╗
+                                      ║                    7. MANIFESTACIONES CLÍNICAS (ENFERMEDADES TIPO I)                 ║
+                                      ╚═══════════════════════════════════════════════════════════════════════════════════════╝
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+        ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+        │   SISTÉMICAS                                                                                                           │
+        │   • ANAFILAXIA SISTÉMICA: fármacos (penicilina), venenos (abeja, avispa), alimentos (cacahuete, marisco), látex      │
+        │     → urticaria generalizada, angioedema, broncoespasmo, hipotensión, shock, muerte si no se trata con adrenalina    │
+        └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+        ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+        │   LOCALIZADAS                                                                                                         │
+        │   • RINITIS ALÉRGICA (fiebre del heno): pólenes, ácaros, caspa → estornudos, rinorrea, obstrucción nasal, prurito   │
+        │   • ASMA BRONQUIAL ALÉRGICO: ácaros, pólenes, caspa → broncoconstricción, disnea, sibilancias, tos, moco             │
+        │   • DERMATITIS ATÓPICA (eccema): asociada a mutaciones en filagrina → piel seca, prurito, eritema, vesículas         │
+        │   • URTICARIA Y ANGIOEDEMA: habones, edema profundo (labios, párpados, laringe)                                       │
+        │   • ALERGIAS ALIMENTARIAS: leche, huevo, cacahuete, marisco, frutos secos → prurito oral, vómitos, diarrea, urticaria│
+        │   • CONJUNTIVITIS ALÉRGICA: picor, lagrimeo, enrojecimiento ocular                                                    │
+        └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+                                      ╔═══════════════════════════════════════════════════════════════════════════════════════╗
+                                      ║                    8. FACTORES GENÉTICOS Y AMBIENTALES (ATOPIA)                      ║
+                                      ╚═══════════════════════════════════════════════════════════════════════════════════════╝
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+        ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+        │   GENES DE SUSCEPTIBILIDAD                                                                                            │
+        │   • 5q31-33: IL-4, IL-5, IL-13, IL-3, GM-CSF                                                                          │
+        │   • 11q13: FcεRIβ (cadena β del receptor de IgE)                                                                      │
+        │   • 16p12: IL-4Rα                                                                                                      │
+        │   • 1q21: FLG (filagrina) → mutaciones asociadas a dermatitis atópica y asma                                           │
+        │   • 2q12: IL-1RL1 (ST2, receptor de IL-33)                                                                            │
+        │   • 5q22: TSLP                                                                                                         │
+        │   • 6p21: HLA-DR, HLA-DQ (presentación de alérgenos)                                                                  │
+        │   • 20p13: ADAM33 (remodelación bronquial)                                                                            │
+        │   • 12q13: STAT6                                                                                                       │
+        │   • 17q21: GSDMB, ORMDL3                                                                                               │
+        │   • Xp22: TLR7, TLR8 (sesgo sexual)                                                                                    │
+        └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+        ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+        │   HIPÓTESIS DE LA HIGIENE                                                                                             │
+        │   • Menor exposición a infecciones en la infancia (sociedades desarrolladas) → menor estímulo para respuestas Th1/Treg│
+        │   → persistencia del sesgo Th2 → aumento de alergias                                                                  │
+        │   • Evidencia: niños de granjas (expuestos a endotoxinas bacterianas) tienen menos alergias                          │
+        └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+                                      ╔═══════════════════════════════════════════════════════════════════════════════════════╗
+                                      ║                    9. FUNCIONES PROTECTORAS (FISIOLÓGICAS)                           ║
+                                      ╚═══════════════════════════════════════════════════════════════════════════════════════╝
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+        ┌───────────────────────────────────┐   ┌───────────────────────────────────┐
+        │   DEFENSA CONTRA HELMINTOS        │   │   PROTECCIÓN CONTRA VENENOS      │
+        │   • IgE específica para parásitos │   │   • IgE contra veneno de abeja,   │
+        │   • Activación de eosinófilos     │   │     serpiente, etc.               │
+        │   • Liberación de MBP, ECP        │   │   • Mastocitos liberan proteasas  │
+        │   • Daño de la cutícula del       │   │     que degradan toxinas          │
+        │     helminto                      │   │                                   │
+        │   • Expulsión por peristaltismo   │   │                                   │
+        │     y moco                        │   │                                   │
+        └───────────────────────────────────┘   └───────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+                                      ╔═══════════════════════════════════════════════════════════════════════════════════════╗
+                                      ║                    10. DIAGNÓSTICO Y TRATAMIENTO (RESUMEN)                           ║
+                                      ╚═══════════════════════════════════════════════════════════════════════════════════════╝
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+        ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+        │   DIAGNÓSTICO                                                                                                          │
+        │   • Pruebas cutáneas (prick test): habón y eritema a los 15-20 min                                                    │
+        │   • IgE específica sérica (RAST, ImmunoCAP)                                                                            │
+        │   • Triptasa sérica (elevada en anafilaxia)                                                                            │
+        │   • Prueba de activación de basófilos (BAT) – CD63/CD203c                                                              │
+        │   • Óxido nítrico exhalado (FeNO) en asma                                                                              │
+        │   • Eosinófilos en sangre, esputo o frotis nasal                                                                       │
+        └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+        ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+        │   TRATAMIENTO                                                                                                          │
+        │   • Adrenalina (epinefrina) IM: primera línea en anafilaxia                                                            │
+        │   • Antihistamínicos H1 (cetirizina, loratadina): rinitis, urticaria                                                   │
+        │   • Corticosteroides inhalados (budesonida, fluticasona): asma crónica                                                 │
+        │   • β₂-agonistas de acción corta (salbutamol): crisis asmática                                                         │
+        │   • Antagonistas de leucotrienos (montelukast): asma, rinitis                                                          │
+        │   • Cromoglicato sódico: profiláctico (estabilizador de mastocitos)                                                    │
+        │   • Inmunoterapia específica (SCIT, SLIT): desensibilización (IgG4, Treg, disminución de IgE)                         │
+        │   • Biológicos: omalizumab (anti-IgE), dupilumab (anti-IL-4Rα), mepolizumab (anti-IL-5), tezepelumab (anti-TSLP)    │
+        └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
