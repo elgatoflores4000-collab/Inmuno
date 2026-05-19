@@ -6,7 +6,71 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Atlas Celular Estático - Hipersensibilidad Tipo I</title>
-  <link rel="stylesheet" href="css/static_atlas.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --glass-bg: rgba(15, 23, 42, 0.45);
+      --glass-border: rgba(255, 255, 255, 0.08);
+      --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0B0F19; /* Deep space background */
+      color: #E2E8F0;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    h1, h2, h3, .phase-title, .cell-label {
+      font-family: 'Outfit', sans-serif;
+    }
+    .phase-section {
+      background: var(--glass-bg) !important;
+      backdrop-filter: blur(16px) !important;
+      -webkit-backdrop-filter: blur(16px) !important;
+      border: 1px solid var(--glass-border) !important;
+      border-radius: 24px !important;
+      box-shadow: var(--glass-shadow) !important;
+      padding: 30px !important;
+    }
+    .cell-wrapper, .step-target {
+      background: rgba(255, 255, 255, 0.02) !important;
+      backdrop-filter: blur(10px) !important;
+      -webkit-backdrop-filter: blur(10px) !important;
+      border: 1px solid rgba(255, 255, 255, 0.05) !important;
+      border-radius: 20px !important;
+      box-shadow: var(--glass-shadow) !important;
+      transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+    }
+    .cell-wrapper:hover, .step-target:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.5) !important;
+      border-color: rgba(255, 255, 255, 0.15) !important;
+    }
+    .cell-label {
+      margin-top: 12px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .list-box ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    .list-box li {
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 11px;
+    }
+    .list-box li:last-child {
+      border-bottom: none;
+    }
+    .phase-header {
+      border-bottom: 1px solid var(--glass-border);
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+    }
+  </style>
 </head>
 
 <body>
@@ -224,15 +288,10 @@
       <!-- PASO CINEMÁTICO 2: Maduración DC -->
       <div id="cine-step-2" class="step-target diagram-container" style="padding: 20px;">
 
-        <div class="cell-wrapper">
-          <div class="cell-label">Immature DC (Lámina Propia)</div>
-          <svg class="svg-cell" width="135" height="135" viewBox="0 0 100 100">
-            <path d="M50 10 Q 55 35 80 30 Q 60 50 85 70 Q 55 60 40 85 Q 40 60 15 65 Q 35 45 20 20 Q 45 35 50 10 Z"
-              fill="url(#grad-dc)" stroke="#3B82F6" stroke-width="1.2" />
-            <circle cx="50" cy="48" r="9" fill="url(#grad-nucleus)" />
-            <circle cx="48" cy="45" r="2.5" fill="white" opacity="0.15" />
-          </svg>
-          <div class="list-box" style="margin-top:10px; font-size:10px; padding:8px;">
+        <div class="cell-wrapper" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 15px; min-width: 140px;">
+          <img src="assets/dendritic_cell.png" style="width: 80px; height: 80px; object-fit: contain; margin-bottom: 8px; filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.4));">
+          <div class="cell-label" style="font-weight: 800; font-size: 12px; color: #60A5FA;">Immature DC (Lámina Propia)</div>
+          <div class="list-box" style="margin-top:10px; width: 100%;">
             <ul>
               <li>Non-motile</li>
               <li>MHC low</li>
@@ -243,21 +302,14 @@
         </div>
 
         <div class="arrow-group">
-          <span class="arrow-label">PAMPs<br><span style="color:#60A5FA;">IL-1</span><br><span
-              style="color:#F472B6;">TNF</span></span>
+          <span class="arrow-label">PAMPs<br><span style="color:#60A5FA;">IL-1</span><br><span style="color:#F472B6;">TNF</span></span>
           <div class="arrow-straight"></div>
         </div>
 
-        <div class="cell-wrapper">
-          <div class="cell-label">Mature DC (Migrando a Linfonodo)</div>
-          <svg class="svg-cell" width="145" height="145" viewBox="0 0 100 100">
-            <path
-              d="M50 5 Q 52 40 95 15 Q 60 48 95 60 Q 55 55 80 95 Q 48 60 30 90 Q 42 55 5 70 Q 45 48 10 30 Q 48 45 30 5 Q 50 40 50 5 Z"
-              fill="url(#grad-dc)" stroke="#2563EB" stroke-width="1.2" />
-            <circle cx="50" cy="50" r="8" fill="url(#grad-nucleus)" />
-            <circle cx="48" cy="48" r="2.2" fill="white" opacity="0.15" />
-          </svg>
-          <div class="list-box" style="margin-top:10px; font-size:10px; padding:8px;">
+        <div class="cell-wrapper" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 15px; min-width: 140px;">
+          <img src="assets/dendritic_cell.png" style="width: 80px; height: 80px; object-fit: contain; margin-bottom: 8px; filter: drop-shadow(0 0 12px rgba(37, 99, 235, 0.6)); transform: rotate(15deg);">
+          <div class="cell-label" style="font-weight: 800; font-size: 12px; color: #2563EB;">Mature DC (Migrando a Linfonodo)</div>
+          <div class="list-box" style="margin-top:10px; width: 100%;">
             <ul>
               <li>Motile</li>
               <li>MHC high</li>
@@ -350,62 +402,9 @@
       <div class="diagram-container" style="align-items: flex-start;">
 
         <!-- PASO CINEMÁTICO 5: Mastocito Sensibilizado Intacto -->
-        <div id="cine-step-5" class="step-target cell-wrapper" style="padding: 20px;">
-          <div class="cell-label">Mast cell (Sensibilizada con IgE)</div>
-          <svg class="svg-cell" width="170" height="170" viewBox="0 0 100 100">
-            <path d="M50 5 C 75 0, 95 25, 90 50 C 95 75, 70 95, 50 90 C 25 95, 5 75, 10 50 C 5 25, 25 5, 50 5 Z"
-              fill="url(#grad-mast)" stroke="#0891B2" stroke-width="1.2" />
-            <circle cx="50" cy="50" r="18" fill="url(#grad-nucleus)" />
-
-            <g>
-              <circle cx="50" cy="20" r="6" fill="url(#grad-granule-purple)" />
-              <circle cx="48.5" cy="18.5" r="1.5" fill="white" opacity="0.6" />
-            </g>
-            <g>
-              <circle cx="70" cy="28" r="6" fill="url(#grad-granule-purple)" />
-              <circle cx="68.5" cy="26.5" r="1.5" fill="white" opacity="0.6" />
-            </g>
-            <g>
-              <circle cx="80" cy="48" r="6" fill="url(#grad-granule-purple)" />
-              <circle cx="78.5" cy="46.5" r="1.5" fill="white" opacity="0.6" />
-            </g>
-            <g>
-              <circle cx="72" cy="70" r="6" fill="url(#grad-granule-purple)" />
-              <circle cx="70.5" cy="68.5" r="1.5" fill="white" opacity="0.6" />
-            </g>
-            <g>
-              <circle cx="50" cy="80" r="6" fill="url(#grad-granule-purple)" />
-              <circle cx="48.5" cy="78.5" r="1.5" fill="white" opacity="0.6" />
-            </g>
-            <g>
-              <circle cx="28" cy="72" r="6" fill="url(#grad-granule-purple)" />
-              <circle cx="26.5" cy="70.5" r="1.5" fill="white" opacity="0.6" />
-            </g>
-            <g>
-              <circle cx="20" cy="50" r="6" fill="url(#grad-granule-purple)" />
-              <circle cx="18.5" cy="48.5" r="1.5" fill="white" opacity="0.6" />
-            </g>
-            <g>
-              <circle cx="28" cy="28" r="6" fill="url(#grad-granule-purple)" />
-              <circle cx="26.5" cy="26.5" r="1.5" fill="white" opacity="0.6" />
-            </g>
-            <g>
-              <circle cx="40" cy="12" r="6" fill="url(#grad-granule-purple)" />
-              <circle cx="38.5" cy="10.5" r="1.5" fill="white" opacity="0.6" />
-            </g>
-            <g>
-              <circle cx="82" cy="35" r="6" fill="url(#grad-granule-purple)" />
-              <circle cx="80.5" cy="33.5" r="1.5" fill="white" opacity="0.6" />
-            </g>
-            <g>
-              <circle cx="65" cy="82" r="6" fill="url(#grad-granule-purple)" />
-              <circle cx="63.5" cy="80.5" r="1.5" fill="white" opacity="0.6" />
-            </g>
-            <g>
-              <circle cx="15" cy="65" r="6" fill="url(#grad-granule-purple)" />
-              <circle cx="13.5" cy="63.5" r="1.5" fill="white" opacity="0.6" />
-            </g>
-          </svg>
+        <div id="cine-step-5" class="step-target" style="padding: 30px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+          <img src="assets/mast_cell.png" style="width: 120px; height: 120px; object-fit: contain; margin-bottom: 12px; filter: drop-shadow(0 0 15px rgba(6, 182, 212, 0.45));">
+          <div class="cell-label" style="font-weight: 800; font-size: 13px; color: #0891B2;">Mast cell (Sensibilizada con IgE)</div>
         </div>
 
         <div class="arrow-group" style="margin-top: 60px;">
@@ -417,28 +416,12 @@
         <!-- PASO CINEMÁTICO 6: Degranulación y Vía de Fosfolipasa A2 -->
         <div id="cine-step-6" class="step-target cell-wrapper" style="position: relative; padding: 20px;">
           <svg class="svg-cell" width="170" height="170" viewBox="0 0 100 100">
-            <path d="M50 5 C 75 0, 95 25, 90 50 C 95 75, 70 95, 50 90 C 25 95, 5 75, 10 50 C 5 25, 25 5, 50 5 Z"
-              fill="url(#grad-mast)" stroke="#0891B2" stroke-width="1.2" stroke-dasharray="8 6" opacity="0.8" />
+            <image href="assets/mast_cell.png" x="18" y="18" width="64" height="64" opacity="0.9" style="filter: drop-shadow(0 0 10px rgba(6, 182, 212, 0.45)); transform-origin: center; animation: pulse 2s infinite ease-in-out;" />
 
             <path d="M 45 88 L 50 82 L 55 88 L 60 81 L 55 93 L 50 100 L 45 93 Z" fill="#EF4444"
               filter="url(#neon-glow-red)" />
             <text x="-4" y="113" font-size="8" fill="#FCA5A5" font-weight="900" letter-spacing="0.2">Phospholipase
               A2</text>
-
-            <circle cx="50" cy="50" r="18" fill="url(#grad-nucleus)" />
-
-            <circle cx="50" cy="20" r="6" fill="url(#grad-granule-purple)" />
-            <circle cx="70" cy="28" r="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.2)"
-              stroke-width="0.5" />
-            <circle cx="80" cy="48" r="6" fill="url(#grad-granule-purple)" />
-            <circle cx="72" cy="70" r="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.2)"
-              stroke-width="0.5" />
-            <circle cx="50" cy="80" r="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.2)"
-              stroke-width="0.5" />
-            <circle cx="28" cy="72" r="6" fill="url(#grad-granule-purple)" />
-            <circle cx="20" cy="50" r="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.2)"
-              stroke-width="0.5" />
-            <circle cx="28" cy="28" r="6" fill="url(#grad-granule-purple)" />
 
             <g filter="url(#neon-glow-purple)">
               <circle class="granule-burst" cx="50" cy="50" r="3" fill="#A78BFA" style="--tx: 42px; --ty: -42px;" />
@@ -514,13 +497,9 @@
 
         <!-- PASO CINEMÁTICO 7: Célula T-Helper Orquestadora -->
         <div id="cine-step-7" class="step-target th-source-col" style="padding: 20px;">
-          <div class="cell-wrapper">
-            <svg class="svg-cell" width="100" height="100" viewBox="0 0 100 100">
-              <circle cx="50" cy="50" r="45" fill="url(#grad-macro)" stroke="#7C3AED" stroke-width="1.5" />
-              <circle cx="50" cy="50" r="26" fill="url(#grad-nucleus)" />
-              <circle cx="46" cy="46" r="6" fill="white" opacity="0.1" />
-            </svg>
-            <div class="cell-label" style="font-size: 12px; color:#A78BFA;">Th1 / Th2<br>Sensibilizadas</div>
+          <div class="cell-wrapper" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 25px;">
+            <img src="assets/t_cell.png" style="width: 85px; height: 85px; object-fit: contain; margin-bottom: 12px; filter: drop-shadow(0 0 15px rgba(124, 58, 237, 0.45));">
+            <div class="cell-label" style="font-size: 13px; color:#A78BFA; font-weight: 800;">Th1 / Th2<br>Sensibilizadas</div>
           </div>
         </div>
 
@@ -537,29 +516,9 @@
               </svg>
             </div>
 
-            <div class="cell-wrapper">
-              <svg class="svg-cell" width="95" height="95" viewBox="0 0 100 100">
-                <path d="M50 10 C 70 5, 90 20, 85 45 C 95 65, 80 90, 50 85 C 20 90, 5 70, 10 45 C 5 20, 30 5, 50 10 Z"
-                  fill="url(#grad-eos)" stroke="#EC4899" stroke-width="1.2" />
-                <ellipse cx="40" cy="50" rx="14" ry="18" fill="url(#grad-nucleus)" stroke="#8B5CF6"
-                  stroke-width="0.8" />
-                <ellipse cx="68" cy="46" rx="14" ry="17" fill="url(#grad-nucleus)" stroke="#8B5CF6"
-                  stroke-width="0.8" />
-                <path d="M 44 42 Q 54 50 64 38" stroke="#8B5CF6" stroke-width="3" fill="none" />
-                <g>
-                  <circle cx="21" cy="46" r="6" fill="url(#grad-granule-red)" />
-                  <circle cx="19.5" cy="44.5" r="1.5" fill="white" opacity="0.6" />
-                </g>
-                <g>
-                  <circle cx="34" cy="78" r="6" fill="url(#grad-granule-red)" />
-                  <circle cx="32.5" cy="76.5" r="1.5" fill="white" opacity="0.6" />
-                </g>
-                <g>
-                  <circle cx="78" cy="74" r="6" fill="url(#grad-granule-red)" />
-                  <circle cx="76.5" cy="72.5" r="1.5" fill="white" opacity="0.6" />
-                </g>
-              </svg>
-              <div class="cell-label" style="font-size: 11px; color:#EC4899;">Eosinófilo</div>
+            <div class="cell-wrapper" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 20px;">
+              <img src="assets/eosinophil.png" style="width: 80px; height: 80px; object-fit: contain; margin-bottom: 10px; filter: drop-shadow(0 0 15px rgba(236, 72, 153, 0.45));">
+              <div class="cell-label" style="font-size: 12px; color:#EC4899; font-weight: 800;">Eosinófilo</div>
             </div>
 
             <div class="arrow-group">
@@ -583,18 +542,9 @@
               </svg>
             </div>
 
-            <div class="cell-wrapper">
-              <svg class="svg-cell" width="105" height="105" viewBox="0 0 100 100">
-                <path d="M50 5 Q 80 0 90 30 Q 100 60 70 90 Q 40 100 10 70 Q 0 40 20 15 Q 30 5 50 5 Z"
-                  fill="url(#grad-macro)" stroke="#7C3AED" stroke-width="1.2" />
-                <circle cx="40" cy="58" r="14" fill="url(#grad-nucleus)" />
-                <circle cx="70" cy="42" r="10" fill="url(#grad-nucleus)" />
-                <g stroke="#34D399" stroke-width="2.5" fill="none" filter="url(#neon-glow-green)">
-                  <path class="draw-path" d="M 21 38 Q 26 33 31 43" />
-                  <path class="draw-path" d="M 58 68 Q 63 78 73 73" />
-                </g>
-              </svg>
-              <div class="cell-label" style="font-size: 11px; color:#C084FC;">Macrófago Activado</div>
+            <div class="cell-wrapper" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 20px;">
+              <img src="assets/macrophage.png" style="width: 80px; height: 80px; object-fit: contain; margin-bottom: 10px; filter: drop-shadow(0 0 15px rgba(192, 132, 252, 0.45));">
+              <div class="cell-label" style="font-size: 12px; color:#C084FC; font-weight: 800;">Macrófago Activado</div>
             </div>
 
             <!-- Fusión y Célula Epitelioide -->
@@ -650,14 +600,9 @@
               </svg>
             </div>
 
-            <div class="cell-wrapper">
-              <svg class="svg-cell" width="90" height="90" viewBox="0 0 100 100">
-                <circle cx="50" cy="50" r="45" fill="url(#grad-eos)" stroke="#F472B6" stroke-width="1.2" />
-                <circle cx="50" cy="50" r="23" fill="url(#grad-nucleus)" />
-                <path d="M 94 40 L 78 40 M 94 60 L 78 60" stroke="#EF4444" stroke-width="2.5"
-                  filter="url(#neon-glow-red)" />
-              </svg>
-              <div class="cell-label" style="font-size: 11px; color:#F472B6;">T Citotóxica</div>
+            <div class="cell-wrapper" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 20px;">
+              <img src="assets/t_cell.png" style="width: 80px; height: 80px; object-fit: contain; margin-bottom: 10px; filter: drop-shadow(0 0 15px rgba(244, 114, 182, 0.45));">
+              <div class="cell-label" style="font-size: 12px; color:#F472B6; font-weight: 800;">T Citotóxica</div>
             </div>
 
             <div class="arrow-group">
